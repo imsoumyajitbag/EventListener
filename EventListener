@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Event Listeners JS</title>
+</head>
+
+<body>
+    <button>Click Me</button>
+
+    <script>
+        document.querySelector("button").addEventListener("click", (e) => {
+            e.target.textContent = "I was clicked";
+        });
+    </script>
+</body>
+
+</html>
